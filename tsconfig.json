@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "inlineSources": true,
+    "jsx": "react",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "target": "es5",
+    "lib": ["esnext", "dom"],
+    "baseUrl": "."
+  },
+  "include": ["packages/**/*"]
+}

@@ -1,0 +1,7 @@
+{
+  "groupName": "examples",
+  "componentName": "CommonProperties",
+  "icon": "js",
+  "designModeFile": "./src/CommonProperties.designmode.tsx",
+  "runModeFile": "./src/CommonProperties.runmode.tsx"
+}
