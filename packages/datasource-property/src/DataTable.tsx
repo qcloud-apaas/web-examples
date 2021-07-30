@@ -1,7 +1,8 @@
 import React from "react";
+import "./style.scss";
 
 export default (props) => {
-  const { records, columns } = props;
+  const { records = [], columns = [] } = props;
   return (
     <table className="example-datasource">
       <thead>
@@ -12,7 +13,7 @@ export default (props) => {
         </tr>
       </thead>
       <tbody>
-        {records.map((row, index) => (
+        {records?.map((row, index) => (
           <tr key={index}>
             {columns.map((col) => (
               <td key={col.key}>{row[col.key]}</td>

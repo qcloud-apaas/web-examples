@@ -1,11 +1,11 @@
 {
-  "name": "@qcloud-apaas/datasource-property",
+  "name": "@qcloud-apaas/fieldsource-property",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "private": true,
   "scripts": {
-    "start": "qcomponent start -p 5200",
+    "start": "qcomponent start -p 5300",
     "build": "qcomponent build",
     "release": "qcomponent release",
     "lint": "npx eslint src/**/**"

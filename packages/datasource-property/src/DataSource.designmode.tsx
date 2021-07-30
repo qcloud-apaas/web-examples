@@ -2,7 +2,6 @@ import React from "react";
 import properties from "./properties";
 import { SDK } from "@qcloud-apaas/web-sdk";
 import DataTable from "./DataTable";
-import "./style.scss";
 
 const CustomDesignComponent = (props) => {
   const { dataSource, title } = props;
@@ -16,8 +15,8 @@ const CustomDesignComponent = (props) => {
   console.log(entities);
   // eslint-disable-next-line no-console
   const columns: any[] = fields.map((field) => ({
-    key: field.code,
-    name: field.name,
+    key: field?.code,
+    name: field?.name,
   }));
   const valueMap = columns.reduce((current, col) => {
     current[col.key] = `{${col.name}}`;
@@ -27,7 +26,7 @@ const CustomDesignComponent = (props) => {
   return (
     <>
       <h3>{titleStr}</h3>
-      <p>{selectedEntity.name}</p>
+      <p>{selectedEntity?.name}</p>
       <DataTable columns={columns} records={records}></DataTable>
     </>
   );

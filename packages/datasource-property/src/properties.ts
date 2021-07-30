@@ -26,6 +26,12 @@ export default <PanelConfig>{
       key: "dataSource",
       type: "dataSource",
       component: "DataSource",
+      props: {
+        // dataSource 将对象字段作为值传递
+        includeFields: true,
+        // 是否开启自动填充，设置为false，在选择对象后不会提示自动填充
+        allowAutoFill: false,
+      },
     },
   ],
   groups: [
