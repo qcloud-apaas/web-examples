@@ -1,6 +1,6 @@
 {
   "groupName": "examples",
-  "componentName": "DataSource",
+  "componentName": "dataSourceProperty",
   "icon": "js",
   "designModeFile": "./src/DataSource.designmode.tsx",
   "runModeFile": "./src/DataSource.runmode.tsx"

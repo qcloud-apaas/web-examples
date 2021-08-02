@@ -1,6 +1,6 @@
 {
   "groupName": "examples",
-  "componentName": "MobileCanvas",
+  "componentName": "mobileCanvas",
   "icon": "js",
   "designModeFile": "./src/MobileCanvas.designmode.tsx",
   "runModeFile": "./src/MobileCanvas.runmode.tsx"
