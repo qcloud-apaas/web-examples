@@ -30,7 +30,9 @@
     "typescript": "^4.3.2"
   },
   "dependencies": {
-    "@qcloud-apaas/web-sdk": "^0.1.8",
+    "@qcloud-apaas/mobile-ui": "^0.1.43",
+    "@qcloud-apaas/web-sdk": "^0.1.9",
+    "antd": "^4.16.9",
     "react": "^16.8.1",
     "react-css-modules": "^4.7.11"
   }

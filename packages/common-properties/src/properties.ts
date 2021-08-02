@@ -20,7 +20,7 @@ const config: PanelConfig = {
       },
       validators: [
         {
-          validator: (value) => value.length < 4,
+          validator: (value) => value.length < 10,
           message: "昵称长度超出限制",
         },
       ],

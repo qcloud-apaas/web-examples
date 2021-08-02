@@ -1,11 +1,17 @@
-import React from 'react';
-import Demo from './Demo';
-import properties from './properties';
+import React from "react";
+import Demo from "./Demo";
+import properties from "./properties";
 
-const CustomRunComponent = (props) => {
+const CustomDesignComponent = (props) => {
   return <Demo {...props}></Demo>;
 };
 
-CustomRunComponent.properties = properties;
+CustomDesignComponent.properties = properties;
+CustomDesignComponent.defaultProps = {
+  name: "name",
+  sex: "male",
+  age: 11,
+  hobbies: "code",
+};
 
-export default CustomRunComponent;
+export default CustomDesignComponent;
