@@ -1,0 +1,7 @@
+{
+  "groupName": "apaas-examples",
+  "componentName": "eventHanlerProperty",
+  "icon": "js",
+  "designModeFile": "./src/EventHanlerProperty.designmode.tsx",
+  "runModeFile": "./src/EventHanlerProperty.runmode.tsx"
+}
