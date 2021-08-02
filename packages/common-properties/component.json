@@ -1,5 +1,5 @@
 {
-  "groupName": "examples",
+  "groupName": "apaas-examples",
   "componentName": "commonProperties",
   "icon": "js",
   "designModeFile": "./src/CommonProperties.designmode.tsx",

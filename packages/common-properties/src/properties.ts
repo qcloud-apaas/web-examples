@@ -177,13 +177,6 @@ const config: PanelConfig = {
       component: "DefaultValue",
       props: {},
     },
-    {
-      label: "动作编辑器",
-      key: "actionList",
-      type: "actionList",
-      component: "ActionList",
-      props: {},
-    },
   ],
   groups: [
     {
@@ -204,7 +197,6 @@ const config: PanelConfig = {
       title: "数据属性",
       items: ["defaultValue", "verifiableRule", "errorMsg", "verifyFields"],
     },
-    { title: "交互属性", items: ["actionList"] },
   ],
 };
 

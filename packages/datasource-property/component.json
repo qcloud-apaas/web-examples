@@ -1,5 +1,5 @@
 {
-  "groupName": "examples",
+  "groupName": "apaas-examples",
   "componentName": "dataSourceProperty",
   "icon": "js",
   "designModeFile": "./src/DataSource.designmode.tsx",

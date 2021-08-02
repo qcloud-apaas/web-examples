@@ -1,5 +1,5 @@
 {
-  "groupName": "examples",
+  "groupName": "apaas-examples",
   "componentName": "mobileCanvas",
   "icon": "js",
   "designModeFile": "./src/MobileCanvas.designmode.tsx",
