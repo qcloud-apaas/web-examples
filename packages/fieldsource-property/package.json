@@ -5,7 +5,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "start": "qcomponent start -p 5300",
+    "start": "qcomponent start -p 5400",
     "build": "qcomponent build",
     "release": "qcomponent release",
     "lint": "npx eslint src/**/**"
@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "@qcloud-apaas/web-sdk": "^0.1.9",
+    "echarts": "^5.1.2",
     "react": "^16.8.1",
     "react-css-modules": "^4.7.11"
   }

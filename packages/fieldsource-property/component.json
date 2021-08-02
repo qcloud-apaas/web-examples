@@ -1,0 +1,7 @@
+{
+  "groupName": "apaas-examples",
+  "componentName": "fieldSourceProperty",
+  "icon": "js",
+  "designModeFile": "./src/FieldSourceProperty.designmode.tsx",
+  "runModeFile": "./src/FieldSourceProperty.runmode.tsx"
+}

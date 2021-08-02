@@ -53,7 +53,7 @@ const CustomRunComponent = (props: ExampleProps) => {
   }, [dataSource]);
   return (
     <>
-      <h3>{title}</h3>
+      <h2>{title}</h2>
       <p>总计： {count}</p>
       <DataTable columns={columns} records={tableRecords}></DataTable>
     </>
