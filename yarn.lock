@@ -1233,23 +1233,23 @@
     widest-line "^3.1.0"
     wrap-ansi "^4.0.0"
 
-"@qcloud-apaas/component-tools-cli@^1.2.1":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@qcloud-apaas/component-tools-cli/-/component-tools-cli-1.2.2.tgz#195d3f0e15046b968e01c598ea7b23f495de6d83"
-  integrity sha512-QxvDqc0xxKqQbSPjxO0msVVE9thPx1nZmJITbBf5/1C/cPJ+ux7U0pewoINBocaMyCgH0F7jW2dy7mNPa1GSaQ==
+"@qcloud-apaas/component-tools-cli@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@qcloud-apaas/component-tools-cli/-/component-tools-cli-1.2.3.tgz#c96034ca4572fbe21fb846dcc1597b80927e6e3c"
+  integrity sha512-TaI/OuQBT1dtH1rWCuCUvyzeVyFdj2Xix+6yV5zwtP4EwiQ109XSsd/xq3o7dV/S89EE4Co5BNTVG3M0AJWy0w==
   dependencies:
     "@oclif/command" "^1"
     "@oclif/config" "^1"
     "@oclif/plugin-help" "^3"
-    "@qcloud-apaas/component-tools" "^1.2.1"
+    "@qcloud-apaas/component-tools" "^1.2.3"
     "@qcloud-apaas/generator-component" "^1.2.2"
     ora "^5.4.1"
     yeoman-environment "^3.4.1"
 
-"@qcloud-apaas/component-tools@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@qcloud-apaas/component-tools/-/component-tools-1.2.1.tgz#bfa7ad25f7dbb0d5accbfd8726a960b5cadbdfb3"
-  integrity sha512-EHf2gI6UuovKMIp1NAir8/SaxB88wQDGP7162tlTG5tY8t9Xo+B6EsBFJbJ8oDNw1KsYTmVVX182ECr3MzNCqQ==
+"@qcloud-apaas/component-tools@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@qcloud-apaas/component-tools/-/component-tools-1.2.3.tgz#08457a7d766d84493fdd21461c9bd281eb037e4c"
+  integrity sha512-c8hEK9L12t9vhv9wRdSK86phI1Ld4tNos3uIQmrvQeCSbsdR50gnK+KVHXTeR3rcGMY0KFmiSw1mETr+ot46ew==
   dependencies:
     "@babel/core" "^7.14.6"
     "@babel/plugin-proposal-decorators" "^7.14.5"
