@@ -1,0 +1,7 @@
+{
+  "groupName": "apaas-examples",
+  "componentName": "componentValues",
+  "icon": "js",
+  "designModeFile": "./src/ComponentValues.designmode.tsx",
+  "runModeFile": "./src/ComponentValues.runmode.tsx"
+}

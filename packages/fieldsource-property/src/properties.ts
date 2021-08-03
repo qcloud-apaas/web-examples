@@ -7,13 +7,6 @@ export default <PanelConfig>{
       key: "compId",
       type: "string",
       component: "InputString",
-      props: {},
-      validators: [
-        {
-          validator: (value) => !!value,
-          message: "必填",
-        },
-      ],
     },
     {
       label: "表头",

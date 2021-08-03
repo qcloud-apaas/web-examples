@@ -7,13 +7,12 @@ export default <PanelConfig>{
       key: "compId",
       type: "string",
       component: "InputString",
-      props: {},
-      validators: [
-        {
-          validator: (value) => !!value,
-          message: "必填",
-        },
-      ],
+    },
+    {
+      label: "名称",
+      key: "label",
+      type: "string",
+      component: "InputString",
     },
     {
       label: "值变化",

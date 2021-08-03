@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@qcloud-apaas/mobile-ui": "^0.1.43",
-    "@qcloud-apaas/web-sdk": "^0.1.9",
+    "@qcloud-apaas/web-sdk": "^0.1.10",
     "antd": "^4.16.9",
     "echarts": "^5.1.2",
     "react": "^16.8.1",
