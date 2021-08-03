@@ -32,11 +32,10 @@ export default <PanelConfig>{
       tooltip: "选择柱状图横轴字段",
       key: "xField",
       type: "fieldSource",
-      component: "FieldSource",
+      component: "FieldSelect",
       useProps(fieldProps) {
         // 将dataSource上的entityCode, 联动赋值到fieldSource上来
         return {
-          ...fieldProps,
           entityCode: fieldProps.dataSource?.entityCode,
         };
       },
@@ -47,11 +46,26 @@ export default <PanelConfig>{
       tooltip: "选择柱状图纵轴字段",
       key: "yField",
       type: "fieldSource",
-      component: "FieldSource",
+      component: "FieldSelect",
       useProps(fieldProps) {
         // 将dataSource上的entityCode, 联动赋值到fieldSource上来
         return {
-          ...fieldProps,
+          entityCode: fieldProps.dataSource?.entityCode,
+        };
+      },
+    },
+    // 字段多选
+    {
+      label: "多选字段",
+      key: "multiFields",
+      type: "fieldSource",
+      component: "FieldSelect",
+      props: {
+        multiple: true, // 字段多选
+      },
+      useProps(fieldProps) {
+        // 将dataSource上的entityCode, 联动赋值到fieldSource上来
+        return {
           entityCode: fieldProps.dataSource?.entityCode,
         };
       },
@@ -64,7 +78,7 @@ export default <PanelConfig>{
     },
     {
       title: "数据属性",
-      items: ["dataSource", "xField", "yField"],
+      items: ["dataSource", "xField", "yField", "multiFields"],
     },
   ],
 };
