@@ -20,7 +20,7 @@ const CustomDesignComponent = (props) => {
 
 CustomDesignComponent.properties = properties;
 CustomDesignComponent.defaultProps = {
-  label: "开光",
+  label: "开关",
 };
 
 export default CustomDesignComponent;

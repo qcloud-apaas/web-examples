@@ -31,7 +31,7 @@ export default <PanelConfig>{
   groups: [
     {
       title: "基本属性",
-      items: ["compId", "placeholder"],
+      items: ["compId", "label", "placeholder"],
     },
     {
       title: "交互属性",
