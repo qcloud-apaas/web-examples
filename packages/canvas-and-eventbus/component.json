@@ -1,0 +1,7 @@
+{
+  "groupName": "apaas-examples",
+  "componentName": "canvasAndEventbus",
+  "icon": "js",
+  "designModeFile": "./src/CanvasAndEventbus.designmode.tsx",
+  "runModeFile": "./src/CanvasAndEventbus.runmode.tsx"
+}

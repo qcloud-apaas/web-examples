@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "private": true,
+  "sideEffects": [
+    "*.css",
+    ".scss"
+  ],
   "scripts": {
     "start": "qcomponent start -p 5400",
     "build": "qcomponent build",

@@ -1,6 +1,6 @@
 import React, { useCallback } from "react";
-import { Switch, Form } from "antd";
 import { SDK } from "@qcloud-apaas/web-sdk";
+import { Switch, Form } from "antd";
 import "antd/es/switch/style/index.css";
 import "antd/es/form/style/index.css";
 import properties from "./properties";
@@ -9,13 +9,17 @@ const CustomDesignComponent = (props) => {
   const { onChange, compId, onMyEventTrigger } = props;
   //
   const { value, onChange: onModelChange } = SDK.useModel(compId);
+  const eventBus = SDK.useEventBus("example");
 
   const handleChange = useCallback(
     (val) => {
+      // 触发eventBus中的事件
+      eventBus.emit("onSwitchChange", val);
+      // 触发onModelChange 修改值
       onModelChange(val);
       onChange?.(val);
     },
-    [onChange, onModelChange]
+    [onChange, onModelChange, eventBus]
   );
   return (
     <Form>

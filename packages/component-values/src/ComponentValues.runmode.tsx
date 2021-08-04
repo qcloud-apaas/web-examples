@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useMemo } from "react";
+import React, { useEffect } from "react";
 import { SDK } from "@qcloud-apaas/web-sdk";
 import { Form } from "antd";
 import "antd/es/form/style/index.css";
@@ -12,7 +12,7 @@ import "antd/es/form/style/index.css";
 
 const CustomRunComponent = (props) => {
   const { compId, priceComponent, countComponent, visibleComponent } = props;
-  const { value, onChange } = SDK.useModel(compId);
+  const { value, onChange } = SDK.useModel(compId, 0);
   // 获取单价的值
   const { value: price } =
     SDK.useComponentSubscriber(priceComponent?.compId) || {};
@@ -28,7 +28,8 @@ const CustomRunComponent = (props) => {
 
   useEffect(() => {
     const totalPrice = Number(price) * Number(count);
-    onChange(Number.isNaN(totalPrice) ? 0 : totalPrice);
+    const totalPriceNum = Number.isNaN(totalPrice) ? 0 : totalPrice;
+    onChange(totalPriceNum);
   }, [price, count, onChange]);
   return <Form.Item label="总金额">{visible ? value : "***"}</Form.Item>;
 };

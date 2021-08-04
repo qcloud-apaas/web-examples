@@ -3,6 +3,10 @@
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
+  "sideEffects": [
+    "*.css",
+    ".scss"
+  ],
   "private": true,
   "scripts": {
     "start": "qcomponent start -p 5100",
