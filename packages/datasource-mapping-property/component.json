@@ -1,0 +1,7 @@
+{
+  "groupName": "apaas-examples",
+  "componentName": "dataSourceMappingProperty",
+  "icon": "js",
+  "designModeFile": "./src/DataSourceMapping.designmode.tsx",
+  "runModeFile": "./src/DataSourceMapping.runmode.tsx"
+}

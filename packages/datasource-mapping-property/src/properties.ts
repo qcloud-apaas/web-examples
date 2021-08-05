@@ -1,4 +1,5 @@
 import { PanelConfig } from "@qcloud-apaas/web-sdk";
+import mappingFields from "./mapping";
 
 export default <PanelConfig>{
   fields: [
@@ -31,6 +32,7 @@ export default <PanelConfig>{
         includeFields: true,
         // 是否开启自动填充，设置为false，在选择对象后不会提示自动填充
         autoFill: false,
+        mappingFields,
       },
     },
   ],
