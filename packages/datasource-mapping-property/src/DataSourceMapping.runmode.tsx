@@ -25,8 +25,8 @@ const CustomRunComponent = (props: ExampleProps) => {
           const { records } = databaseResponse;
           setRecords(
             records
-              .map((record) => record.fieldValueMap)
-              .sort((a, b) => a.createdTime - b.createdTime)
+              .map((record) => record.fieldValueMap) // 获取recordValues
+              .sort((a, b) => a.createdTime - b.createdTime) // 按时间排序
           );
         }
       })
