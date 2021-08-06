@@ -13,7 +13,6 @@ const config: PanelConfig = {
       key: "left",
       type: "slot",
       component: "Slot",
-      visible: false,
     },
     {
       label: "右节点",
