@@ -1227,23 +1227,23 @@
     widest-line "^3.1.0"
     wrap-ansi "^4.0.0"
 
-"@qcloud-apaas/component-tools-cli@^1.2.6":
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/@qcloud-apaas/component-tools-cli/-/component-tools-cli-1.2.6.tgz#c6cdd6dcaeed03dd7789247e2bea1b3e2a347eab"
-  integrity sha512-H/ZUxAQL+V9BWjLXRvBTQDbfcqzEp2TLRxEUvvKLfas8d0i3JBxOcLO4vNC13NteS8NbsJ8nroNbnZpqWg2USA==
+"@qcloud-apaas/component-tools-cli@^1.2.7":
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/@qcloud-apaas/component-tools-cli/-/component-tools-cli-1.2.7.tgz#07584bba9c00c929f6f0bd19bcf1d2170c453a6d"
+  integrity sha512-vizY0KJ5a9MxIUbrztHvrNwNSW+OICwOHgKyEr4aGEwovX6coJEIyjyq5WjOvXOA0JmIGajaEh13kvmnSQIVbQ==
   dependencies:
     "@oclif/command" "^1"
     "@oclif/config" "^1"
     "@oclif/plugin-help" "^3"
-    "@qcloud-apaas/component-tools" "^1.2.6"
+    "@qcloud-apaas/component-tools" "^1.2.7"
     "@qcloud-apaas/generator-component" "^1.2.2"
     ora "^5.4.1"
     yeoman-environment "^3.4.1"
 
-"@qcloud-apaas/component-tools@^1.2.6":
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/@qcloud-apaas/component-tools/-/component-tools-1.2.6.tgz#a2b2f2480882d778ca8d69091cf6ff0daa5fb425"
-  integrity sha512-HW3V3z0QBBpkj2vPk+F/1vtKwQFu79Fg27LCSzsqoPuOCNhdRZc5TSXhsHQmW4yi5XpbsJwCEtHWmZwSiQ1i9g==
+"@qcloud-apaas/component-tools@^1.2.7":
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/@qcloud-apaas/component-tools/-/component-tools-1.2.7.tgz#a2bf13c1643358626b23b5ea0e3e6332bb264205"
+  integrity sha512-cK1DdvMB8Ysn1s0/oZKzLl3d8YJ8C35ejdxi5A1hzIfg4OUpfy3rrmAl+2Ab4hrx+efFh9bFPiUzrJmPIrdrxg==
   dependencies:
     "@babel/core" "^7.14.6"
     "@babel/plugin-proposal-decorators" "^7.14.5"
@@ -1288,10 +1288,10 @@
     clsx "^1.1.0"
     pant-react "^0.1.40"
 
-"@qcloud-apaas/web-sdk@^0.1.12":
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/@qcloud-apaas/web-sdk/-/web-sdk-0.1.12.tgz#73ff692cad923be3336edceb1c038d564438798e"
-  integrity sha512-Ww7wIOCQpL+vlcT5z7aGvGG+6/ez5N34UQvD0qa/Vp5oqWctKDqvpYusWaVT+fQyji62HjUq8huFMqdW+TdIRg==
+"@qcloud-apaas/web-sdk@^0.1.13":
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/@qcloud-apaas/web-sdk/-/web-sdk-0.1.13.tgz#72afe3caa178861c90171bd56be7c2e70affdea1"
+  integrity sha512-SaSXFEg12xN6/dkAy0AyNsWEcBMwcqEUcV3zveOQUjKBQl9qc51K7LpKpI6xcqXu61UYvG/GL5E4EnXSI0HOyQ==
   dependencies:
     eventemitter3 "^4.0.7"
 

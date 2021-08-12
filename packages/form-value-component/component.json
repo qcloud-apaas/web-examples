@@ -1,0 +1,7 @@
+{
+  "groupName": "apaas-examples",
+  "componentName": "formValueComponent",
+  "icon": "js",
+  "designModeFile": "./src/FormValueComponent.designmode.tsx",
+  "runModeFile": "./src/FormValueComponent.runmode.tsx"
+}
