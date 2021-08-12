@@ -1,6 +1,7 @@
 import React from "react";
 import { SDK } from "@qcloud-apaas/web-sdk";
 import { Slider } from "antd";
+import "antd/es/slider/style/index.css";
 import properties from "./properties";
 
 const CustomDesignComponent = (props) => {

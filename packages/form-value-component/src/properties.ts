@@ -16,7 +16,6 @@ export default <PanelConfig>{
     },
     {
       label: "选择字段",
-      tooltip: "选择柱状图纵轴字段",
       key: "fieldBinding",
       type: "fieldSource",
       component: "FieldSelect",
