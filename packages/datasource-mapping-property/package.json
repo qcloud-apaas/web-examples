@@ -1,6 +1,6 @@
 {
   "name": "@qcloud-apaas/datasource-mapping-property",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "private": true,
@@ -18,7 +18,7 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.12.10",
-    "@qcloud-apaas/component-tools-cli": "^1.2.3",
+    "@qcloud-apaas/component-tools-cli": "^1.2.7",
     "@typescript-eslint/eslint-plugin": "^4.15.1",
     "@typescript-eslint/parser": "^4.15.1",
     "eslint": "^7.20.0",
