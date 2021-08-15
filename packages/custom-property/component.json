@@ -1,0 +1,7 @@
+{
+  "groupName": "apaas-examples",
+  "componentName": "customProperty",
+  "icon": "js",
+  "designModeFile": "./src/CustomPropertyComponent.designmode.tsx",
+  "runModeFile": "./src/CustomPropertyComponent.runmode.tsx"
+}
