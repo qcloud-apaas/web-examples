@@ -1,9 +1,5 @@
 import React, { useEffect, useState, useMemo } from "react";
-import {
-  SDK,
-  DynamicDataSource,
-  DataSourceResponse,
-} from "@qcloud-apaas/web-sdk";
+import { SDK, DynamicDataSource } from "@qcloud-apaas/web-sdk";
 import DataTable from "./DataTable";
 
 type ExampleProps = {
@@ -23,9 +19,12 @@ const CustomRunComponent = (props: ExampleProps) => {
       })),
     [dataSource]
   );
+
+  const { fetch } = SDK.useDataSource(dataSource);
+
   useEffect(() => {
     const { type, variableType } = dataSource;
-    SDK.fetchByDataSource<DataSourceResponse>(dataSource)
+    fetch()
       .then((res) => {
         console.log(res);
         if (type === "database") {
@@ -50,7 +49,7 @@ const CustomRunComponent = (props: ExampleProps) => {
       .catch((err) => {
         console.error(err);
       });
-  }, [dataSource]);
+  }, [dataSource, fetch]);
   return (
     <>
       <h2>{title}</h2>

@@ -6,11 +6,12 @@ const CustomRunComponent = (props) => {
   const { dataSource = {}, xField = {}, yField = {}, title } = props;
   const [xData, setXData] = useState([]);
   const [yData, setYData] = useState([]);
+  const { fetch } = SDK.useDataSource(dataSource);
   useEffect(() => {
     const { type } = dataSource;
     const { code: xFieldCode } = xField;
     const { code: yFieldCode } = yField;
-    SDK.fetchByDataSource(dataSource)
+    fetch()
       .then((res) => {
         if (type === "database") {
           // 以数据库作为数据源
@@ -23,7 +24,7 @@ const CustomRunComponent = (props) => {
       .catch((err) => {
         console.error(err);
       });
-  }, [xField, yField, dataSource]);
+  }, [xField, yField, dataSource, fetch]);
   return <Charts xData={xData} yData={yData} title={title}></Charts>;
 };
 

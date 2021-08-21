@@ -21,6 +21,10 @@ const config: PanelConfig = {
       component: "Slot",
     },
   ],
+  slots: [
+    { slot: "left", component: "Stack", props: {}, children: [] },
+    { slot: "right", component: "Stack", props: {}, children: [] },
+  ],
   groups: [
     {
       title: "基本属性",
