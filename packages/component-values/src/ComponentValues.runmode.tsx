@@ -12,7 +12,9 @@ import "antd/es/form/style/index.css";
 
 const CustomRunComponent = (props) => {
   const { compId, priceComponent, countComponent, visibleComponent } = props;
-  const { value, onChange } = SDK.useModel(compId, 0);
+  const { value, onChange } = SDK.useModel(compId, {
+    initialValue: 0,
+  });
   // 获取单价的值
   const { value: price } =
     SDK.useComponentSubscriber(priceComponent?.compId) || {};

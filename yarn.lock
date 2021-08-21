@@ -1288,10 +1288,10 @@
     clsx "^1.1.0"
     pant-react "^0.1.40"
 
-"@qcloud-apaas/web-sdk@^0.1.15":
-  version "0.1.15"
-  resolved "https://registry.yarnpkg.com/@qcloud-apaas/web-sdk/-/web-sdk-0.1.15.tgz#586cc593bbda9fd657a36327b5c48e74e33cd6c3"
-  integrity sha512-yVLNLutjZKSvPHX2TQGKVOmdlimSFUUwK2vV5fKQcmEe7OMIkky0FFAHlWohHVUE71JLfmcqzfuJkoXaAQS2QA==
+"@qcloud-apaas/web-sdk@^0.1.16":
+  version "0.1.16"
+  resolved "https://registry.yarnpkg.com/@qcloud-apaas/web-sdk/-/web-sdk-0.1.16.tgz#6ad7e2d45d497c8880f9127c7e331cce328c419d"
+  integrity sha512-xKMbRIDTUhEVdh5B4nLhm3wadJ8eTo2VWxk1OzoVP5Zq/ZWqDuAJGTWlxfud8dgtIkij/TUmvHYS5WO57YXGNg==
   dependencies:
     eventemitter3 "^4.0.7"
 
