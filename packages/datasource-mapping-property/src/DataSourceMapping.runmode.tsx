@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { SDK, DynamicDataSource } from "@qcloud-apaas/web-sdk";
 import Charts from "./Charts";
 
@@ -10,10 +10,10 @@ type ExampleProps = {
 const CustomRunComponent = (props: ExampleProps) => {
   const { dataSource, title } = props;
   const [records, setRecords] = useState([]);
-  const { fetch } = SDK.useDataSource(dataSource);
+  const { fetchData } = SDK.useDataSource(dataSource);
   useEffect(() => {
     const { type } = dataSource;
-    fetch()
+    fetchData()
       .then((res) => {
         console.log(res);
         if (type === "database") {
@@ -30,7 +30,7 @@ const CustomRunComponent = (props: ExampleProps) => {
       .catch((err) => {
         console.error(err);
       });
-  }, [dataSource, fetch]);
+  }, [dataSource, fetchData]);
   return <Charts title={title} records={records}></Charts>;
 };
 

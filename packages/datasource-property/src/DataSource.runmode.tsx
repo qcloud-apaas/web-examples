@@ -20,11 +20,20 @@ const CustomRunComponent = (props: ExampleProps) => {
     [dataSource]
   );
 
-  const { fetch } = SDK.useDataSource(dataSource);
+  const { fetchData } = SDK.useDataSource(dataSource);
+  // 或
+  // -----------------------------------------
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  SDK.useDataSource(dataSource, (fetchData) => {
+    // 这个回调函数会在每次DataSource的参数变化时执行
+    // 可以保证数据的动态刷新
+    // 如筛选条件、流程入参
+    console.log("数据源DataSource参数变化，请重新执行fetchData");
+  });
 
   useEffect(() => {
     const { type, variableType } = dataSource;
-    fetch()
+    fetchData()
       .then((res) => {
         console.log(res);
         if (type === "database") {
@@ -49,7 +58,7 @@ const CustomRunComponent = (props: ExampleProps) => {
       .catch((err) => {
         console.error(err);
       });
-  }, [dataSource, fetch]);
+  }, [dataSource, fetchData]);
   return (
     <>
       <h2>{title}</h2>
