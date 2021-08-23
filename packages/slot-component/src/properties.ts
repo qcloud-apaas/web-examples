@@ -8,18 +8,6 @@ const config: PanelConfig = {
       type: "string",
       component: "InputString",
     },
-    {
-      label: "左节点",
-      key: "left",
-      type: "slot",
-      component: "Slot",
-    },
-    {
-      label: "右节点",
-      key: "right",
-      type: "slot",
-      component: "Slot",
-    },
   ],
   slots: [
     { slot: "left", component: "Stack", props: {}, children: [] },
