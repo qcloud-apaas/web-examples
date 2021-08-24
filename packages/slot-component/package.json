@@ -1,6 +1,6 @@
 {
   "name": "@qcloud-apaas/slot-component",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "private": true,
@@ -18,7 +18,7 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.12.10",
-    "@qcloud-apaas/component-tools-cli": "^1.2.7",
+    "@qcloud-apaas/component-tools-cli": "^1.2.9",
     "@typescript-eslint/eslint-plugin": "^4.15.1",
     "@typescript-eslint/parser": "^4.15.1",
     "eslint": "^7.20.0",
@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "@qcloud-apaas/mobile-ui": "^0.1.43",
-    "@qcloud-apaas/web-sdk": "^0.1.17",
+    "@qcloud-apaas/web-sdk": "^0.1.18",
     "antd": "^3",
     "react": "^16.8.1",
     "react-css-modules": "^4.7.11"

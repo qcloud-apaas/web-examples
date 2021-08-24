@@ -1227,23 +1227,24 @@
     widest-line "^3.1.0"
     wrap-ansi "^4.0.0"
 
-"@qcloud-apaas/component-tools-cli@^1.2.7":
-  version "1.2.7"
-  resolved "https://registry.yarnpkg.com/@qcloud-apaas/component-tools-cli/-/component-tools-cli-1.2.7.tgz#07584bba9c00c929f6f0bd19bcf1d2170c453a6d"
-  integrity sha512-vizY0KJ5a9MxIUbrztHvrNwNSW+OICwOHgKyEr4aGEwovX6coJEIyjyq5WjOvXOA0JmIGajaEh13kvmnSQIVbQ==
+"@qcloud-apaas/component-tools-cli@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@qcloud-apaas/component-tools-cli/-/component-tools-cli-1.2.9.tgz#d272498f325bc2e2219ad2a13b6c526b45511cb4"
+  integrity sha512-v0satEGyYMAlVjzvXtU9LPB3pyT2EqiA/sEGpYTE7pgCKufhS3pvd1wMXKo0gTVCpl7+NsCzPNHY7sfaATFJ0A==
   dependencies:
     "@oclif/command" "^1"
     "@oclif/config" "^1"
     "@oclif/plugin-help" "^3"
-    "@qcloud-apaas/component-tools" "^1.2.7"
+    "@qcloud-apaas/component-tools" "^1.2.9"
     "@qcloud-apaas/generator-component" "^1.2.2"
+    chalk "4.1.2"
     ora "^5.4.1"
     yeoman-environment "^3.4.1"
 
-"@qcloud-apaas/component-tools@^1.2.7":
-  version "1.2.7"
-  resolved "https://registry.yarnpkg.com/@qcloud-apaas/component-tools/-/component-tools-1.2.7.tgz#a2bf13c1643358626b23b5ea0e3e6332bb264205"
-  integrity sha512-cK1DdvMB8Ysn1s0/oZKzLl3d8YJ8C35ejdxi5A1hzIfg4OUpfy3rrmAl+2Ab4hrx+efFh9bFPiUzrJmPIrdrxg==
+"@qcloud-apaas/component-tools@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@qcloud-apaas/component-tools/-/component-tools-1.2.9.tgz#1905f6094dc8b2e8bffc54cd014c0bf89355192f"
+  integrity sha512-Cta0UIxmr6V/PqhIbyqVLApZ1vYKBL+1EkKkHH5cLaW9bNJEbkOQjZtWXIt8p1rQpt3VabTP+irq20swVL2BcQ==
   dependencies:
     "@babel/core" "^7.14.6"
     "@babel/plugin-proposal-decorators" "^7.14.5"
@@ -1251,6 +1252,7 @@
     "@babel/preset-env" "^7.14.7"
     "@babel/preset-react" "^7.14.5"
     babel-loader "^8.2.2"
+    chalk "4.1.2"
     cos-nodejs-sdk-v5 "^2.9.20"
     crypto-js "^4.0.0"
     css-loader "^5.2.7"
@@ -2542,6 +2544,14 @@ caseless@~0.12.0:
   resolved "https://registry.yarnpkg.com/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
   integrity sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
 
+chalk@4.1.2, chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.1:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
+  integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
+  dependencies:
+    ansi-styles "^4.1.0"
+    supports-color "^7.1.0"
+
 chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.4.1, chalk@^2.4.2:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
@@ -2550,14 +2560,6 @@ chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.4.1, chalk@^2.4.2:
     ansi-styles "^3.2.1"
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
-
-chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.1:
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
-  integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
-  dependencies:
-    ansi-styles "^4.1.0"
-    supports-color "^7.1.0"
 
 chardet@^0.7.0:
   version "0.7.0"
