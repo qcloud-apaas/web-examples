@@ -1,6 +1,6 @@
 {
-  "name": "@qcloud-apaas/datasource-property",
-  "version": "1.0.4",
+  "name": "@qcloud-apaas/slot-advanced-component",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "private": true,
@@ -9,7 +9,7 @@
     ".scss"
   ],
   "scripts": {
-    "start": "qcomponent start -p 5200",
+    "start": "qcomponent start -p 5130",
     "build": "qcomponent build",
     "release": "qcomponent release",
     "lint": "npx eslint src/**/**"
@@ -31,7 +31,9 @@
     "typescript": "^4.3.2"
   },
   "dependencies": {
+    "@qcloud-apaas/mobile-ui": "^0.1.43",
     "@qcloud-apaas/web-sdk": "^0.1.17",
+    "antd": "^3",
     "react": "^16.8.1",
     "react-css-modules": "^4.7.11"
   }

@@ -1,0 +1,7 @@
+{
+  "groupName": "apaas-examples",
+  "componentName": "slotAdvancedComponent",
+  "icon": "js",
+  "designModeFile": "./src/SlotAdvancedComponent.designmode.tsx",
+  "runModeFile": "./src/SlotAdvancedComponent.runmode.tsx"
+}

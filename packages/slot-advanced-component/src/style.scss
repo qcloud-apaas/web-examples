@@ -1,0 +1,12 @@
+.example__versus {
+  display: flex;
+  justify-content: space-between;
+  .vs {
+    align-items: center;
+    display: flex;
+    padding: 0 20px;
+  }
+  .example__versus-item {
+    flex: 1;
+  }
+}
