@@ -22,9 +22,11 @@ const config: PanelConfig = {
       component: Cols,
     },
   ],
+  // 每次props发生变化，就会触发下面这个函数的执行
   slots: [
     (props) => {
       const { cols = [] } = props;
+
       return cols.map((col, index) => ({
         slot: `cols[${index}].render`,
         key: col.id,

@@ -7,7 +7,7 @@ const config: PanelConfig = {
       key: "compId",
       type: "string",
       component: "InputString",
-    },
+    }
   ],
   slots: [
     { slot: "left", component: "Stack", props: {}, children: [] },
@@ -17,10 +17,6 @@ const config: PanelConfig = {
     {
       title: "基本属性",
       items: ["compId"],
-    },
-    {
-      title: "节点属性",
-      items: ["left", "right"],
     },
   ],
 };

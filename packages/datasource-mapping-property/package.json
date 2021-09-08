@@ -12,13 +12,14 @@
     "start": "qcomponent start -p 5800",
     "build": "qcomponent build",
     "release": "qcomponent release",
+    "tpk": "qcomponent tpk",
     "lint": "npx eslint src/**/**"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.12.10",
-    "@qcloud-apaas/component-tools-cli": "^1.2.9",
+    "@qcloud-apaas/component-tools-cli": "^2.0.0",
     "@typescript-eslint/eslint-plugin": "^4.15.1",
     "@typescript-eslint/parser": "^4.15.1",
     "eslint": "^7.20.0",

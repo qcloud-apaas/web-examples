@@ -7,13 +7,17 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "build": "yarn workspaces run build",
+    "tpk": "yarn workspaces run tpk"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/qcloud-apaas/web-examples"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
-    "@qcloud-apaas/component-tools-cli": "^1.2.9",
+    "@qcloud-apaas/component-tools-cli": "^2.0.0",
     "@typescript-eslint/eslint-plugin": "^4.15.1",
     "@typescript-eslint/parser": "^4.15.1",
     "eslint": "^7.20.0",
