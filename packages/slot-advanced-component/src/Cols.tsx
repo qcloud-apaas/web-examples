@@ -1,8 +1,5 @@
 import React, { useCallback } from "react";
 import { Row, Col, Button, Input } from "antd";
-import "antd/es/button/style/index.css";
-import "antd/es/input/style/index.css";
-import "antd/es/grid/style/index.css";
 
 const genId = () => Date.now().toString(16);
 

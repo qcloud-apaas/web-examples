@@ -1338,24 +1338,24 @@
     widest-line "^3.1.0"
     wrap-ansi "^4.0.0"
 
-"@qcloud-apaas/component-tools-cli@^2.0.0":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@qcloud-apaas/component-tools-cli/-/component-tools-cli-2.0.1.tgz#0e4a741597b1e0f1d4b9a18c10334d23cf11a203"
-  integrity sha512-oaVrKZ36P7ZPZUwlV1kaQEVJwA8Aziap45Mk3oGcnOArGEyBpeDVCV4ULtfSDjuTSiJpdGMijj0R+wDNp6dMZw==
+"@qcloud-apaas/component-tools-cli@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@qcloud-apaas/component-tools-cli/-/component-tools-cli-2.0.2.tgz#4114a3a3bb804e4af333b0b0f04b067420240a35"
+  integrity sha512-trw5JE108ggxhNZGM4nGq0PW+wpiQzaEowdX2Qy6zBhwE7JIopCuvWCmq7LOdcPtH2j0I4PdpVepKnHO9XIPKA==
   dependencies:
     "@oclif/command" "^1"
     "@oclif/config" "^1"
     "@oclif/plugin-help" "^3"
-    "@qcloud-apaas/component-tools" "^2.0.0"
-    "@qcloud-apaas/generator-component" "^2.0.1"
+    "@qcloud-apaas/component-tools" "^2.0.2"
+    "@qcloud-apaas/generator-component" "^2.0.2"
     chalk "4.1.2"
     ora "^5.4.1"
     yeoman-environment "^3.4.1"
 
-"@qcloud-apaas/component-tools@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@qcloud-apaas/component-tools/-/component-tools-2.0.0.tgz#f598e77b66beaa0dc781287c2104b3d51d70e9cb"
-  integrity sha512-Keal+zIqPiyp+mZefi10dITj0mrqAUbRZ6mSaLUj1cIi7vEk32tPmuxKRaJQBrSovm7XOHz/XwE5fX85rb0zoA==
+"@qcloud-apaas/component-tools@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@qcloud-apaas/component-tools/-/component-tools-2.0.2.tgz#06aa7c85d0a3d835e15847f157ac34b823af486a"
+  integrity sha512-prxtGQh/ybVZtPI1lF1oP6hUWKsSG9zpG+XycAC+9lQd+eqrWR2VhliLPnyVtfQMj/s0tANO/SGgMpkjplEgsw==
   dependencies:
     "@babel/core" "7.14.6"
     "@babel/plugin-proposal-decorators" "7.14.5"
@@ -1387,10 +1387,10 @@
     webpack-dev-server "^3.11.2"
     webpack-merge "^5.8.0"
 
-"@qcloud-apaas/generator-component@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@qcloud-apaas/generator-component/-/generator-component-2.0.1.tgz#fe5ffd94125a27709f16ae1d2e4051b1c797ec87"
-  integrity sha512-aqv+BctiWnUnIniPDX+LHwVHlwrf7carPVlQQR4TVPOExuF10Nk9cDskFVCJWCyOMmQPlu1oInkWJud2KRvgTQ==
+"@qcloud-apaas/generator-component@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@qcloud-apaas/generator-component/-/generator-component-2.0.2.tgz#8145f4ff61d3e553087e3bbbc952d4914c4fa8d5"
+  integrity sha512-EVIV8nLOfyCil656M8Fi6RCbxYx51q7DZio/ae3xebZu0bLeUO9RLNgN8ItziFjoMA5xES1Br5QkK/6q77QeJQ==
   dependencies:
     command-exists "^1.2.9"
     glob "^7.1.6"

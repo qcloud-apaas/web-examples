@@ -1,10 +1,7 @@
 import React, { useEffect, useState, useCallback } from "react";
 import { SDK } from "@qcloud-apaas/web-sdk";
 import { Modal, Input, Form, Button } from "antd";
-import "antd/es/modal/style/index.css";
-import "antd/es/input/style/index.css";
-import "antd/es/form/style/index.css";
-import "antd/es/button/style/index.css";
+
 
 /*
  * SDK.useEventBus(namespace) 创建一个特定命名空间的EventBus

@@ -3,5 +3,30 @@
   "componentName": "slotComponent",
   "icon": "js",
   "designModeFile": "./src/SlotComponent.designmode.tsx",
-  "runModeFile": "./src/SlotComponent.runmode.tsx"
+  "runModeFile": "./src/SlotComponent.runmode.tsx",
+  "webpackConfig": {
+    "externals": {
+      "antd": "antd",
+      "echarts": "echarts"
+    }
+  },
+  "scripts": [
+    {
+      "id": "antd",
+      "version": "4.16.9",
+      "url": "https://cdn.bootcdn.net/ajax/libs/antd/4.16.9/antd.min.js"
+    },
+    {
+      "id": "echarts",
+      "version": "5.1.2",
+      "url": "https://cdn.bootcdn.net/ajax/libs/echarts/5.1.2/echarts.min.js"
+    }
+  ],
+  "styles": [
+    {
+      "id": "antd-css",
+      "version": "4.16.9",
+      "url": "https://cdn.bootcdn.net/ajax/libs/antd/4.16.9/antd.min.css"
+    }
+  ]
 }

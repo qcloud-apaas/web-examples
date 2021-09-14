@@ -2,8 +2,6 @@ import React from "react";
 import { SDK } from "@qcloud-apaas/web-sdk";
 import { MuiField } from "@qcloud-apaas/mobile-ui/es/field";
 import { Form, Input } from "antd";
-import "antd/es/form/style/index.css";
-import "antd/es/input/style/index.css";
 
 const MobileDemo = () => {
   return <MuiField title="字段展示" name="label" placeholder="请输入" />;

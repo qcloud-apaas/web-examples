@@ -2,7 +2,6 @@ import React, { useMemo } from "react";
 // import { SDK } from "@qcloud-apaas/web-sdk";
 import properties from "./properties";
 import { Form } from "antd";
-import "antd/es/form/style/index.css";
 
 const CustomRunComponent = (props) => {
   const { priceComponent, countComponent } = props;

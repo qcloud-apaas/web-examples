@@ -2,7 +2,6 @@ import React from "react";
 import properties from "./properties";
 import { SDK } from "@qcloud-apaas/web-sdk";
 import { Button } from "antd";
-import "antd/es/button/style/index.css";
 
 const CustomRunComponent = (props) => {
   const { buttonText } = props;

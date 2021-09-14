@@ -3,5 +3,32 @@
   "componentName": "formValueComponent",
   "icon": "js",
   "designModeFile": "./src/FormValueComponent.designmode.tsx",
-  "runModeFile": "./src/FormValueComponent.runmode.tsx"
+  "runModeFile": "./src/FormValueComponent.runmode.tsx",
+  "webpackConfig": {
+    "externals": {
+      "antd": "antd",
+      "echarts": "echarts"
+    }
+  },
+  "scripts": [
+    {
+      "id": "antd",
+      "async": true,
+      "version": "4.16.9",
+      "url": "https://cdn.bootcdn.net/ajax/libs/antd/4.16.9/antd.min.js"
+    },
+    {
+      "id": "echarts",
+      "async": true,
+      "version": "4.16.9",
+      "url": "https://cdn.bootcdn.net/ajax/libs/echarts/5.1.2/echarts.min.js"
+    }
+  ],
+  "styles": [
+    {
+      "id": "antd-css",
+      "version": "4.16.9",
+      "url": "https://cdn.bootcdn.net/ajax/libs/antd/4.16.9/antd.min.css"
+    }
+  ]
 }

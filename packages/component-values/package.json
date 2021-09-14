@@ -1,6 +1,6 @@
 {
   "name": "@qcloud-apaas/component-values",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "sideEffects": [
@@ -19,7 +19,7 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.12.10",
-    "@qcloud-apaas/component-tools-cli": "^2.0.0",
+    "@qcloud-apaas/component-tools-cli": "^2.0.2",
     "@typescript-eslint/eslint-plugin": "^4.15.1",
     "@typescript-eslint/parser": "^4.15.1",
     "eslint": "^7.20.0",

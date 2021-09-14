@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { SDK } from "@qcloud-apaas/web-sdk";
 import { Form } from "antd";
-import "antd/es/form/style/index.css";
 
 // SDK.useModel
 // 传入当前组件的标识，可以获得一个成对的value 和 onChange

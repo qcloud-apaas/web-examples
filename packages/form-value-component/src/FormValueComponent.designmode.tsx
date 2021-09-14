@@ -1,6 +1,5 @@
 import React from "react";
 import { Slider } from "antd";
-import "antd/es/slider/style/index.css";
 import properties from "./properties";
 
 const CustomDesignComponent = () => {

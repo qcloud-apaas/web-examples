@@ -1,8 +1,6 @@
 import React, { useCallback } from "react";
 import { SDK } from "@qcloud-apaas/web-sdk";
 import { Switch, Form } from "antd";
-import "antd/es/switch/style/index.css";
-import "antd/es/form/style/index.css";
 import properties from "./properties";
 
 const CustomDesignComponent = (props) => {

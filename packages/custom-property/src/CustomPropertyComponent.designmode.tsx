@@ -1,7 +1,5 @@
 import React from "react";
 import { Slider, Form } from "antd";
-import "antd/es/form/style/index.css";
-import "antd/es/slider/style/index.css";
 import properties from "./properties";
 
 const CustomRunComponent = (props) => {
