@@ -1,7 +1,7 @@
 import React from "react";
 import properties from "./properties";
 import { SDK } from "@qcloud-apaas/web-sdk";
-import { Button } from "antd";
+import { Button } from  "tea-component"
 
 const CustomRunComponent = (props) => {
   const { buttonText } = props;

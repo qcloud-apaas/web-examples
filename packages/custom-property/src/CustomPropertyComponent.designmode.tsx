@@ -1,18 +1,30 @@
 import React from "react";
-import { Slider, Form } from "antd";
+
 import properties from "./properties";
+import { Slider } from "tea-component";
 
 const CustomRunComponent = (props) => {
   const { defaultVolume, defaultBright } = props;
+  
   return (
-    <Form layout="horizontal">
-      <Form.Item label="音量">
-        <Slider value={defaultVolume}></Slider>
-      </Form.Item>
-      <Form.Item label="亮度">
-        <Slider value={defaultBright}></Slider>
-      </Form.Item>
-    </Form>
+    <>
+      <section style={{padding:"0.26rem"}}>
+        音量：<Slider
+          min={0}
+          max={100}
+          value={defaultVolume}
+          disabled={true}
+        />
+        亮度：<Slider
+          min={0}
+          max={100}
+          value={defaultBright}
+          disabled={true}
+        />
+      </section>
+    </>
+
+
   );
 };
 

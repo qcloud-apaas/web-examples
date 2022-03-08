@@ -31,10 +31,11 @@
   },
   "dependencies": {
     "@qcloud-apaas/mobile-ui": "^0.1.43",
-    "@qcloud-apaas/web-sdk": "^0.1.18",
-    "antd": "^3",
+    "@qcloud-apaas/web-sdk": "^0.1.26",
+    "antd": "^3.26.20",
     "echarts": "^5.1.2",
-    "react": "^16.8.1",
-    "react-css-modules": "^4.7.11"
+    "react": "^16.14.0",
+    "react-css-modules": "^4.7.11",
+    "tea-component": "^2.7.3"
   }
 }

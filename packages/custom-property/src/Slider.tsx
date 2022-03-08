@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
-import { Slider } from "antd";
+
+import { Slider } from "tea-component";
 import { SDK } from "@qcloud-apaas/web-sdk";
 
 export default (props) => {
@@ -19,5 +20,5 @@ export default (props) => {
       });
     }
   }, [value]);
-  return <Slider value={value} onChange={onChange}></Slider>;
+  return <Slider min={0} max={100} value={value} onChange={onChange}></Slider>;
 };

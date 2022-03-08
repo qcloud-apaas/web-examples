@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useCallback } from "react";
 import { SDK } from "@qcloud-apaas/web-sdk";
-import { Modal, Input, Form, Button } from "antd";
+
+import { Modal, Input, Form, Button } from "tea-component";
 
 
 /*
@@ -24,19 +25,21 @@ const CustomRunComponent = (props) => {
   const [visible, setVisible] = useState(false);
   const { value, onChange } = SDK.useModel(compId);
   const { on } = SDK.useEventBus("example");
-
-  useEffect(() => {
-    const cancel = on("example_showModal", () => {
-      setVisible(true);
-    });
-    return () => cancel();
-  }, [on]);
+  console.log(SDK.useModel(compId));
+  
+  // useEffect(() => {
+  //   const cancel = on("example_showModal", () => {
+  //     setVisible(true);
+  //   });
+  //   return () => cancel();
+  // }, [on]);
 
   const handleChange = useCallback(
     (e) => {
-      const val = e.target.value;
-      onChange(val);
-      setValue("example_modalValue", val);
+      console.log(e);
+      // const val = e.target.value;
+      onChange(e);
+      setValue("example_modalValue", e);
     },
     [onChange, setValue]
   );
@@ -46,22 +49,20 @@ const CustomRunComponent = (props) => {
       <Button type="primary" onClick={() => setVisible(true)}>
         打开弹窗
       </Button>
-      <Modal
-        title={title}
-        visible={visible}
-        destroyOnClose
-        onOk={() => {
-          setVisible(false);
-        }}
-        onCancel={() => {
-          setVisible(false);
-        }}
-      >
-        <Form>
-          <Form.Item>
-            <Input value={value} onChange={handleChange}></Input>
-          </Form.Item>
-        </Form>
+      <Modal visible={visible} caption={title} onClose={() => {setVisible(false);}}>
+        <Modal.Body><Input value={value} onChange={handleChange}></Input></Modal.Body>
+        <Modal.Footer>
+          <Button type="primary" onClick={() => {
+            setVisible(false);
+          }}>
+            确定
+          </Button>
+          <Button type="weak" onClick={() => {
+            setVisible(false);
+          }}>
+            取消
+          </Button>
+        </Modal.Footer>
       </Modal>
     </div>
   );
